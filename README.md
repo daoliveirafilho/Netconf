@@ -51,7 +51,7 @@ O “PHP FastCGI Process Manager,” &eacute; um gerenciador de processos FastCG
 [www]
 user = www
 group = www
-listen = [::1]:9900
+listen = [::1]:19999
 listen.owner = www
 listen.group = www
 listen.mode = 0440
@@ -68,6 +68,6 @@ location ~ \.php$ {
 root /usr/local/www;
 include fastcgi_params;
 fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-fastcgi_pass [::1]:9900;
+fastcgi_pass [::1]:19999;
 } }
 ```
