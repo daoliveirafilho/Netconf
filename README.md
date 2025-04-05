@@ -1,6 +1,6 @@
 <!-- ABOUT THE PROJECT -->
 
-# Automatic Configuration Server
+# Servidor de configura&ccedil;&atilde;o autom&aacute;tica
 
 _Utiliza comunica&ccedil;&atilde;o bidirecional com o uso de envelopes SOAP (Simple Object Access Protocol) que carregam estrutura XML (Extensive Markup Language). A api realiza a leitura e a configura&ccedil;&atilde;o dos par&acirc;metros das CPEs._
 
